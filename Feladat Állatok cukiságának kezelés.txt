@@ -1,0 +1,77 @@
+Feladat: Állatok cukiságának kezelése
+
+Leírás: Készíts egy programot, amely különböző állatok nevét és pontszámait kezeli! A program a következő funkciókat látja el:
+
+1.Állatok hozzáadása:
+
+Kérdezd meg a felhasználót, hogy hány állatot szeretne hozzáadni.
+
+For ciklus segítségével kérd be az állatok nevét és a hozzájuk tartozó pontszámokat (pl. mennyire aranyosak).
+
+Tárold az adatokat egy listában, ahol minden elem egy tuple (név, pontszám) lesz.
+---------------------------------------------------------
+
+
+Állatok megjelenítése:
+
+Kérdezd meg a felhasználót, hogy szeretné-e látni az összes állat nevét és pontszámát.
+
+Ha igent válaszol, írd ki az állatok nevét és pontszámait nem kell szép legyen :).
+--------------------------------------------------------
+
+
+A csoport: Átlagos pontszám kiszámítása:
+
+Kérdezd meg a felhasználót, hogy érdekli-e az állatok átlagos pontszáma.
+
+For ciklussal számold ki a pontszámok átlagát, és jelenítsd meg az eredményt.
+-------------------------------------------------------
+
+
+B csoport: Legmagasabb és legalacsonyabb pontszám megkeresése:
+
+Kérdezd meg a felhasználót, hogy kíváncsi-e a legmagasabb és a legalacsonyabb pontszámra.
+
+Ciklus segítségével keresd meg a legnagyobb és legkisebb pontszámot, majd írd ki őket.
+
+
+Hány állatot szeretnél hozzáadni? 3
+
+Add meg az 1. állat nevét: Cica
+Add meg Cica pontszámát: 9
+Add meg a 2. állat nevét: Kutya
+Add meg Kutya pontszámát: 10
+Add meg a 3. állat nevét: Nyuszi
+Add meg Nyuszi pontszámát: 8
+Szeretnéd látni az összes állatot? (igen/nem): igen
+
+Állatok listája:
+
+diff
+Kód másolása
+Név       | Pontszám  
+---------------------  
+Cica      | 9  
+Kutya     | 10  
+Nyuszi    | 8  
+Szeretnéd tudni az átlagos pontszámot? (igen/nem): igen
+Az átlagos pontszám: 9.0
+
+Szeretnéd tudni a legmagasabb és a legalacsonyabb pontszámot? (igen/nem): igen
+Legmagasabb pontszám: 10
+Legalacsonyabb pontszám: 8
+
+Szeretnél eltávolítani egy állatot? (igen/nem): igen
+Add meg az állat nevét, akit el szeretnél távolítani: Kutya
+Kutya eltávolítva.
+
+Szeretnéd látni az összes állatot? (igen/nem): igen
+
+Állatok listája:
+
+diff
+Kód másolása
+Név       | Pontszám  
+---------------------  
+Cica      | 9  
+Nyuszi    | 8  
